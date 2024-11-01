@@ -33,6 +33,7 @@ def get_image_descriptions(image_urls):
                     "text": (
                         "Generate descriptions for the provided images in the following styles, "
                         "each around 70 words:\n"
+                        "0. Human-Centric description\n"
                         "1. Literal description\n"
                         "2. Emotional response\n"
                         "3. Contextual background\n"
